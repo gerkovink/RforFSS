@@ -1,5 +1,5 @@
 ---
-title: "Statistical Programming with R"
+title: "Introduction to R and RStudio"
 author: 
 date: 
 output: html_document
