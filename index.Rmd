@@ -5,20 +5,44 @@ date:
 output: html_document
 ---
 
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 12px;
+  }
+td {  /* Table  */
+  font-size: 12px;
+}
+h1.title {
+  font-size: 18px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 18px;
+}
+h2 { /* Header 2 */
+    font-size: 18px;
+}
+h3 { /* Header 3 */
+  font-size: 18px;
+}
+code.r{ /* Code block */
+    font-size: 18px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 18px;
+}
+</style>
+
 <style>
 .column-left{
   float: left;
-  width: 33%;
-  text-align: left;
-}
-.column-center{
-  display: inline-block;
-  width: 33%;
+  width: 50%;
   text-align: left;
 }
 .column-right{
   float: right;
-  width: 33%;
+  width: 50%;
   text-align: left;
 }
 .span-wide{
@@ -28,23 +52,63 @@ output: html_document
 }
 </style>
 
-
 ---
 
 This is the course page for the *speed* course **Introduction to statistical analyses with R and RStudio** for the Utrecht University **School of Social and Behavioral Sciences**. All course materials can be obtained from this site. 
 
 ---
 
-#### Preparing your machine for the course
+Course instructor: 
+[Gerko Vink](https://www.gerkovink.com)
+
+---
+
+# Preparing your machine for the course
 We use `R`, `RStudio` and a variety of packages in this course. You can find a detailed guide to install the necessary software on your own laptop in [this guide](How_to_prepare.html)
 
 If you experience terribly slow interactions with `R` on your `UU laptop`, please follow the guide [`Install R on UU laptop`](https://gist.github.com/vankesteren/f2e198aa5ab4f6262b21a3d13bbea0b5) to properly install and configure `R`. With thanks to [Erik-Jan van Kesteren](https://erikjanvankesteren.nl).
 
 ---
 
-#### Course Materials (in due time)
+# Time Table
+
+| Day   | Weekday   | Where? | Time          | What?            | Topic                                                 |
+|-------|-----------|-----------| ---------------|------------|-------------------------------------------------------|
+| Day 1 | Tuesday | Ruppert 011 | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
+|       | Tuesday | Ruppert 011 | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
+|       | Tuesday | Ruppert 011 | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
+|       | Tuesday | Ruppert 011 | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
+| Day 2 | Wednesday | Ruppert 002 | 09:00 - 10:45 |  Lecture 3     | Statistical modeling in `R`|
+|       | Wednesday | Ruppert 002 | 11:00 - 12:45 |  Practical 3   | Regression, Anova and all other things least squared|
+
+**NOTE: for the second iteration of this course in May, the Wednesday timeslot will be from 11:00 am  till 14.45 pm and the rooms will be different. The above time table will be updated after the first iteration in April. **
 
 ---
 
+# Course Materials
+
+<div class="column-left">
+## Day 1: Tuesday
+- Part A: Introduction
+    - [Lecture 1](Part A - Introduction/Lecture_A.html)
+    - [Practical 1](Part A - Introduction/Practical_A_walkthrough.html)
+    - [`notebook.R`](Part A - Introduction/notebook.R)
+- Part B: Working with `R`
+    - [Lecture 2](Part B - How is R organized/Lecture_B.html)
+    - [Practical 2](Part B - How is R organized/Practical_B_walkthrough.html)
+    - [`boys.RData`](Part B - How is R organized/boys.RData)
+</div>
+
+<div class="column-right">
+## Day 2: Wednesday
+- Part C: Statistical modeling
+    - [Lecture 3](Part E - Model estimation/Lecture_E.html)
+    - [Practical 3](Part E - Model estimation/Practical_E_walkthrough.html)
+</div>
 
 
+<div class="span-wide">
+
+---
+
+</div>

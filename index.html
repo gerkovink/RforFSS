@@ -311,20 +311,43 @@ $(document).ready(function () {
 </div>
 
 
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 12px;
+  }
+td {  /* Table  */
+  font-size: 12px;
+}
+h1.title {
+  font-size: 18px;
+  color: DarkBlue;
+}
+h1 { /* Header 1 */
+  font-size: 18px;
+}
+h2 { /* Header 2 */
+    font-size: 18px;
+}
+h3 { /* Header 3 */
+  font-size: 18px;
+}
+code.r{ /* Code block */
+    font-size: 18px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 18px;
+}
+</style>
 <style>
 .column-left{
   float: left;
-  width: 33%;
-  text-align: left;
-}
-.column-center{
-  display: inline-block;
-  width: 33%;
+  width: 50%;
   text-align: left;
 }
 .column-right{
   float: right;
-  width: 33%;
+  width: 50%;
   text-align: left;
 }
 .span-wide{
@@ -336,15 +359,121 @@ $(document).ready(function () {
 <hr />
 <p>This is the course page for the <em>speed</em> course <strong>Introduction to statistical analyses with R and RStudio</strong> for the Utrecht University <strong>School of Social and Behavioral Sciences</strong>. All course materials can be obtained from this site.</p>
 <hr />
-<div id="preparing-your-machine-for-the-course" class="section level4">
-<h4>Preparing your machine for the course</h4>
+<p>Course instructor: <a href="https://www.gerkovink.com">Gerko Vink</a></p>
+<hr />
+<div id="preparing-your-machine-for-the-course" class="section level1">
+<h1>Preparing your machine for the course</h1>
 <p>We use <code>R</code>, <code>RStudio</code> and a variety of packages in this course. You can find a detailed guide to install the necessary software on your own laptop in <a href="How_to_prepare.html">this guide</a></p>
 <p>If you experience terribly slow interactions with <code>R</code> on your <code>UU laptop</code>, please follow the guide <a href="https://gist.github.com/vankesteren/f2e198aa5ab4f6262b21a3d13bbea0b5"><code>Install R on UU laptop</code></a> to properly install and configure <code>R</code>. With thanks to <a href="https://erikjanvankesteren.nl">Erik-Jan van Kesteren</a>.</p>
 <hr />
 </div>
-<div id="course-materials-in-due-time" class="section level4">
-<h4>Course Materials (in due time)</h4>
+<div id="time-table" class="section level1">
+<h1>Time Table</h1>
+<table>
+<colgroup>
+<col width="6%"></col>
+<col width="10%"></col>
+<col width="10%"></col>
+<col width="13%"></col>
+<col width="11%"></col>
+<col width="47%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>Weekday</th>
+<th>Where?</th>
+<th>Time</th>
+<th>What?</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Day 1</td>
+<td>Tuesday</td>
+<td>Ruppert 011</td>
+<td>09:00 - 09:30</td>
+<td>Lecture 1</td>
+<td>Introduction to <code>R</code> and <code>RStudio</code></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tuesday</td>
+<td>Ruppert 011</td>
+<td>09:30 - 10:45</td>
+<td>Practical 1</td>
+<td>Starting to script with <code>R</code></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Tuesday</td>
+<td>Ruppert 011</td>
+<td>11:00 - 11:30</td>
+<td>Lecture 2</td>
+<td>How is <code>R</code> organized</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tuesday</td>
+<td>Ruppert 011</td>
+<td>11.45 - 12:45</td>
+<td>Practical 2</td>
+<td>Creating and manipulating objects in <code>R</code></td>
+</tr>
+<tr class="odd">
+<td>Day 2</td>
+<td>Wednesday</td>
+<td>Ruppert 002</td>
+<td>09:00 - 10:45</td>
+<td>Lecture 3</td>
+<td>Statistical modeling in <code>R</code></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Wednesday</td>
+<td>Ruppert 002</td>
+<td>11:00 - 12:45</td>
+<td>Practical 3</td>
+<td>Regression, Anova and all other things least squared</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NOTE: for the second iteration of this course in May, the Wednesday timeslot will be from 11:00 am till 14.45 pm and the rooms will be different. The above time table will be updated after the first iteration in April. </strong></p>
 <hr />
+</div>
+<div id="course-materials" class="section level1">
+<h1>Course Materials</h1>
+<div class="column-left">
+<h2 id="day-1-tuesday">Day 1: Tuesday</h2>
+<ul>
+<li>Part A: Introduction
+<ul>
+<li><a href="Part%20A%20-%20Introduction/Lecture_A.html">Lecture 1</a></li>
+<li><a href="Part%20A%20-%20Introduction/Practical_A_walkthrough.html">Practical 1</a></li>
+<li><a href="Part%20A%20-%20Introduction/notebook.R"><code>notebook.R</code></a></li>
+</ul></li>
+<li>Part B: Working with <code>R</code>
+<ul>
+<li><a href="Part%20B%20-%20How%20is%20R%20organized/Lecture_B.html">Lecture 2</a></li>
+<li><a href="Part%20B%20-%20How%20is%20R%20organized/Practical_B_walkthrough.html">Practical 2</a></li>
+<li><a href="Part%20B%20-%20How%20is%20R%20organized/boys.RData"><code>boys.RData</code></a></li>
+</ul></li>
+</ul>
+</div>
+<div class="column-right">
+<h2 id="day-2-wednesday">Day 2: Wednesday</h2>
+<ul>
+<li>Part C: Statistical modeling
+<ul>
+<li><a href="Part%20E%20-%20Model%20estimation/Lecture_E.html">Lecture 3</a></li>
+<li><a href="Part%20E%20-%20Model%20estimation/Practical_E_walkthrough.html">Practical 3</a></li>
+</ul></li>
+</ul>
+</div>
+<div class="span-wide">
+<hr />
+</div>
 </div>
 
 
