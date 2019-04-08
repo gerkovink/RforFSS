@@ -110,7 +110,19 @@ to a readable file where code and output are visible. There is, however, an even
 
 ---
 
-11. **If not open anymore, open your script by clicking on `Practical_A.R` in the files pane. Run both lines of code again and inspect the contents of the global environment by typing and running `ls()`**
+11. **Open the file `markdown.Rmd`. **
+
+Have a look at the code in the script and figure out the structure of the `markdown` file. If you do not understand what you are looking at, please ask me. 
+
+---
+
+12. **Click `Knit HTML` to compile the file into a html-document. If necessary, install the required packages. Inspect the html file and compare it to the one you have created from the `notebook.R` file. **
+
+In the rest of this course we will teach one another about `R` by showing our code and the resulting output in the plenary sessions. The notebook and markdown functionality in `R-Studio` are very convenient ways to do this. One of the reasons for using either format is that we can assess code on every machine, without the need for the packages / functionality that you used but someone else might not have. Please use one of these formats for the other practicals. 
+
+---
+
+13. **If not open anymore, open your script by clicking on `Practical_A.R` in the files pane. Run both lines of code again and inspect the contents of the global environment by typing and running `ls()`**
 
 The following is returned by `R`
 ```{r}

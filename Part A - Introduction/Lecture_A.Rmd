@@ -9,8 +9,6 @@ output:
     widescreen: no
 ---
 
-##
-
 # Overview of this course
 ## Program
 | Day   | Weekday   | Where? | Time          | What?            | Topic                                                 |
