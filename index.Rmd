@@ -93,6 +93,7 @@ If you experience terribly slow interactions with `R` on your `UU laptop`, pleas
     - [Lecture 1](Part A - Introduction/Lecture_A.html)
     - [Practical 1](Part A - Introduction/Practical_A_walkthrough.html)
     - [`notebook.R`](Part A - Introduction/notebook.R)
+    - [`markdown.Rmd`](Part A - Introduction/markdown.Rmd)
 - Part B: Working with `R`
     - [Lecture 2](Part B - How is R organized/Lecture_B.html)
     - [Practical 2](Part B - How is R organized/Practical_B_walkthrough.html)
