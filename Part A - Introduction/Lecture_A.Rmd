@@ -10,19 +10,18 @@ output:
 ---
 
 ##
-You can view my screen on your machine: 
-
-[join.me/statistics_uu](http://join.me/statistics_uu)
-
-and access the course materials quickly from
-
-[http://bit.ly/statsR](http://bit.ly/RforASW)
 
 # Overview of this course
 ## Program
-<center>
-<img src="figures/schedule.png" alt="HTML5 Icon" width = 70%>
-</center>
+| Day   | Weekday   | Where? | Time          | What?            | Topic                                                 |
+|-------|-----------|-----------| ---------------|------------|-------------------------------------------------------|
+| Day 1 | Tuesday | Ruppert 011 | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
+|       | Tuesday | Ruppert 011 | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
+|       | Tuesday | Ruppert 011 | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
+|       | Tuesday | Ruppert 011 | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
+| Day 2 | Wednesday | Ruppert 002 | 09:00 - 10:45 |  Lecture 3     | Statistical modeling in `R`|
+|       | Wednesday | Ruppert 002 | 11:00 - 12:45 |  Practical 3   | Regression, Anova and all other things least squared|
+
 
 # Goal of this course
 ## Learn to keep your *cool*
