@@ -74,14 +74,12 @@ If you experience terribly slow interactions with `R` on your `UU laptop`, pleas
 
 | Day   | Weekday   | Where? | Time          | What?            | Topic                                                 |
 |-------|-----------|-----------| ---------------|------------|-------------------------------------------------------|
-| Day 1 | Tuesday | Ruppert 011 | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
-|       | Tuesday | Ruppert 011 | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
-|       | Tuesday | Ruppert 011 | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
-|       | Tuesday | Ruppert 011 | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
-| Day 2 | Wednesday | Ruppert 002 | 09:00 - 10:45 |  Lecture 3     | Statistical modeling in `R`|
-|       | Wednesday | Ruppert 002 | 11:00 - 12:45 |  Practical 3   | Regression, Anova and all other things least squared|
-
-**NOTE: for the second iteration of this course in May, the Wednesday timeslot will be from 11:00 am  till 14.45 pm and the rooms will be different. The above time table will be updated after the first iteration in April. **
+| Day 1 | Tuesday | BOL - 3.130 | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
+|       | Tuesday | BOL - 3.130 | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
+|       | Tuesday | BOL - 3.130 | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
+|       | Tuesday | BOL - 3.130 | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
+| Day 2 | Wednesday | BOL - 1.138 | 11:00 - 12:45 |  Lecture 3     | Statistical modeling in `R`|
+|       | Wednesday | BOL - 1.138 | 13:00 - 14:45 |  Practical 3   | Regression, Anova and all other things least squared|
 
 ---
 
