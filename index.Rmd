@@ -74,12 +74,12 @@ If you experience terribly slow interactions with `R` on your `UU laptop`, pleas
 
 | Day   | Weekday   | Where? | Time          | What?            | Topic                                                 |
 |-------|-----------|-----------| ---------------|------------|-------------------------------------------------------|
-| Day 1 | Tuesday | BOL - 3.130 | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
-|       | Tuesday | BOL - 3.130 | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
-|       | Tuesday | BOL - 3.130 | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
-|       | Tuesday | BOL - 3.130 | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
-| Day 2 | Wednesday | BOL - 1.138 | 11:00 - 12:45 |  Lecture 3     | Statistical modeling in `R`|
-|       | Wednesday | BOL - 1.138 | 13:00 - 14:45 |  Practical 3   | Regression, Anova and all other things least squared|
+| Day 1 | Tuesday | Van Lier en Egginkzaal | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
+|       | Tuesday | Van Lier en Egginkzaal | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
+|       | Tuesday | Van Lier en Egginkzaal | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
+|       | Tuesday | Van Lier en Egginkzaal | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
+| Day 2 | Wednesday | Van Lier en Egginkzaal | 9:00 - 10:45 |  Lecture 3     | Statistical modeling in `R`|
+|       | Wednesday | Van Lier en Egginkzaal | 11:00 - 12:45 |  Practical 3   | Regression, Anova and all other things least squared|
 
 ---
 

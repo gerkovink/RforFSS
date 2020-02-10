@@ -255,9 +255,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -282,22 +280,92 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -372,11 +440,11 @@ pre { /* Code block - determines code spacing between lines */
 <table>
 <colgroup>
 <col width="6%"></col>
-<col width="10%"></col>
-<col width="10%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
 <col width="13%"></col>
-<col width="11%"></col>
-<col width="47%"></col>
+<col width="10%"></col>
+<col width="49%"></col>
 </colgroup>
 <thead>
 <tr class="header">
@@ -392,7 +460,7 @@ pre { /* Code block - determines code spacing between lines */
 <tr class="odd">
 <td>Day 1</td>
 <td>Tuesday</td>
-<td>BOL - 3.130</td>
+<td>Van Lier en Egginkzaal</td>
 <td>09:00 - 09:30</td>
 <td>Lecture 1</td>
 <td>Introduction to <code>R</code> and <code>RStudio</code></td>
@@ -400,7 +468,7 @@ pre { /* Code block - determines code spacing between lines */
 <tr class="even">
 <td></td>
 <td>Tuesday</td>
-<td>BOL - 3.130</td>
+<td>Van Lier en Egginkzaal</td>
 <td>09:30 - 10:45</td>
 <td>Practical 1</td>
 <td>Starting to script with <code>R</code></td>
@@ -408,7 +476,7 @@ pre { /* Code block - determines code spacing between lines */
 <tr class="odd">
 <td></td>
 <td>Tuesday</td>
-<td>BOL - 3.130</td>
+<td>Van Lier en Egginkzaal</td>
 <td>11:00 - 11:30</td>
 <td>Lecture 2</td>
 <td>How is <code>R</code> organized</td>
@@ -416,7 +484,7 @@ pre { /* Code block - determines code spacing between lines */
 <tr class="even">
 <td></td>
 <td>Tuesday</td>
-<td>BOL - 3.130</td>
+<td>Van Lier en Egginkzaal</td>
 <td>11.45 - 12:45</td>
 <td>Practical 2</td>
 <td>Creating and manipulating objects in <code>R</code></td>
@@ -424,16 +492,16 @@ pre { /* Code block - determines code spacing between lines */
 <tr class="odd">
 <td>Day 2</td>
 <td>Wednesday</td>
-<td>BOL - 1.138</td>
-<td>11:00 - 12:45</td>
+<td>Van Lier en Egginkzaal</td>
+<td>9:00 - 10:45</td>
 <td>Lecture 3</td>
 <td>Statistical modeling in <code>R</code></td>
 </tr>
 <tr class="even">
 <td></td>
 <td>Wednesday</td>
-<td>BOL - 1.138</td>
-<td>13:00 - 14:45</td>
+<td>Van Lier en Egginkzaal</td>
+<td>11:00 - 12:45</td>
 <td>Practical 3</td>
 <td>Regression, Anova and all other things least squared</td>
 </tr>
