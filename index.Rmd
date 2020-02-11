@@ -1,113 +1,216 @@
 ---
-title: "Introduction to R and RStudio"
-author: 
-date: 
-output: html_document
+title: "`R` for FSS"
+date: "A crashcourse in `R`" 
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
 ---
 
-<style type="text/css">
+---
+title: "Statistical Programming with R"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+---
 
-body{ /* Normal  */
-      font-size: 12px;
-  }
-td {  /* Table  */
-  font-size: 12px;
-}
-h1.title {
-  font-size: 18px;
-  color: DarkBlue;
-}
-h1 { /* Header 1 */
-  font-size: 18px;
-}
-h2 { /* Header 2 */
-    font-size: 18px;
-}
-h3 { /* Header 3 */
-  font-size: 18px;
-}
-code.r{ /* Code block */
-    font-size: 18px;
-}
-pre { /* Code block - determines code spacing between lines */
-    font-size: 18px;
-}
-</style>
+# Intro {.sidebar}
 
-<style>
-.column-left{
-  float: left;
-  width: 50%;
-  text-align: left;
-}
-.column-right{
-  float: right;
-  width: 50%;
-  text-align: left;
-}
-.span-wide{
-  float: right;
-  width: 100%;
-  text-align: left;
-}
-</style>
+This dashboard covers the course materials for the workshop **Statistical programming with R** for the School of Social Sciences at Utrecht University.
 
 ---
 
-This is the course page for the *speed* course **Introduction to statistical analyses with R and RStudio** for the Utrecht University **School of Social and Behavioral Sciences**. All course materials can be obtained from this site. 
+Instructor: [Gerko Vink](https://www.gerkovink.com) <br>
 
 ---
 
-Course instructor: 
-[Gerko Vink](https://www.gerkovink.com)
+# Quick Overview
 
----
+## Column 1
 
-# Preparing your machine for the course
-We use `R`, `RStudio` and a variety of packages in this course. You can find a detailed guide to install the necessary software on your own laptop in [this guide](How_to_prepare.html)
+### Outline
+R is rapidly becoming the standard platform for data manipulation, visualization and analysis and has a number of advantages over other statistical software packages. A wide community of users contribute to R, resulting in an enormous coverage of statistical procedures, including many that are not available in any other statistical program. Furthermore, it is highly flexible for programming and scripting purposes, for example when manipulating data or creating professional plots. However, R lacks standard GUI menus, as in SPSS for example, from which to choose what statistical test to perform or which graph to create. As a consequence, R is more challenging to master. Therefore, this course offers an elaborate introduction into statistical programming in R. Students learn to operate R, make plots, fit, assess and interpret a variety of basic statistical models and do advanced statistical programming and data manipulation. 
 
-If you experience terribly slow interactions with `R` on your `UU laptop`, please follow the guide [`Install R on UU laptop`](https://gist.github.com/vankesteren/f2e198aa5ab4f6262b21a3d13bbea0b5) to properly install and configure `R`. With thanks to [Erik-Jan van Kesteren](https://erikjanvankesteren.nl).
+The course deals with the following topics:
 
----
+1.	Basic programming skills: scripting, data manipulation, and pipelines, summaries and plotting.
+2.	Fitting statistical models: estimation, prediction and testing.
 
-# Time Table
+**The course starts at a beginner level.** At the end of the course, participants will master intermediate programming and scripting skills with `R`.
 
-| Day   | Weekday   | Where? | Time          | What?            | Topic                                                 |
-|-------|-----------|-----------| ---------------|------------|-------------------------------------------------------|
-| Day 1 | Tuesday | Van Lier en Egginkzaal | 09:00 - 09:30 | Lecture 1        | Introduction to `R` and `RStudio`|
-|       | Tuesday | Van Lier en Egginkzaal | 09:30 - 10:45 | Practical 1      | Starting to script with `R`|
-|       | Tuesday | Van Lier en Egginkzaal | 11:00 - 11:30 | Lecture 2        | How is `R` organized |
-|       | Tuesday | Van Lier en Egginkzaal | 11.45 - 12:45 | Practical 2      | Creating and manipulating objects in `R`|
-| Day 2 | Wednesday | Van Lier en Egginkzaal | 9:00 - 10:45 |  Lecture 3     | Statistical modeling in `R`|
-|       | Wednesday | Van Lier en Egginkzaal | 11:00 - 12:45 |  Practical 3   | Regression, Anova and all other things least squared|
+Prerequisites:
+Participants are requested to bring their own laptop for lab meetings.
 
----
+## Column 2
 
-# Course Materials
+### Daily schedule 
 
-<div class="column-left">
-## Day 1: Tuesday
-- Part A: Introduction
-    - [Lecture 1](Part A - Introduction/Lecture_A.html)
-    - [Practical 1](Part A - Introduction/Practical_A_walkthrough.html)
-    - [`notebook.R`](Part A - Introduction/notebook.R)
-    - [`markdown.Rmd`](Part A - Introduction/markdown.Rmd)
-- Part B: Working with `R`
-    - [Lecture 2](Part B - How is R organized/Lecture_B.html)
-    - [Practical 2](Part B - How is R organized/Practical_B_walkthrough.html)
-    - [`boys.RData`](Part B - How is R organized/boys.RData)
-</div>
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09.00 | 09.30  | Lecture |
+| 09:30 | 10.15  | Practical |
+| 10.15 | 10.45  | Discussion |
+|       | **break** |            |
+| 11.00 | 11.45  | Lecture |
+| 11.45 | 12.30  | Practical |
+| 12.30 | 13.00  | Discussion  |
 
-<div class="column-right">
-## Day 2: Wednesday
-- Part C: Statistical modeling
-    - [Lecture 3](Part E - Model estimation/Lecture_E.html)
-    - [Practical 3](Part E - Model estimation/Practical_E_walkthrough.html)
-</div>
+# How to prepare
+
+## Column 1
+
+### Preparing your machine for the course
+Dear all, 
+
+This January you will participate in the **Statistical programming with R** workshop. To realize a steeper learning curve, we will use some functionality that is not part of the base installation for `R`. The below steps guide you through installing both `R` as well as the necessary additions. 
+I look forward to see you all,  
+
+*Gerko Vink*
+
+### **System requirements**
+
+Bring a laptop computer to the course and make sure that you have full write access and administrator rights to the machine. We will explore programming and compiling in this course. This means that you need full access to your machine. Some corporate laptops come with limited access for their users, we therefore advice you to bring a personal laptop computer, if you have one. 
+
+### **1. Install `R`**
+`R` can be obtained [here](https://cran.r-project.org). We won't use `R` directly in the course, but rather call `R` through `RStudio`. Therefore it needs to be installed. 
+
+### **2. Install `RStudio` Desktop**
+
+Rstudio is an Integrated Development Environment (IDE). It can be obtained as stand-alone software [here](https://www.rstudio.com/products/rstudio/download/#download). The free and open source `RStudio Desktop` version is sufficient.
+
+### **3. Start RStudio and install the following packages. **
+
+Execute the following lines of code in the console window:
+
+```{r eval=FALSE, echo = TRUE}
+install.packages(c("ggplot2", "tidyverse", "magrittr", "knitr", 
+                   "rmarkdown", "plotly", "ggplot2", "shiny", 
+                   "devtools", "car", "MASS", "mice", "miceadds"), 
+                 dependencies = TRUE)
+```
 
 
-<div class="span-wide">
+If you are not sure where to execute code, use the following figure to identify the console:
 
----
+<center>
+  <img src="console.png" alt="HTML5 Icon" width = 70%>
+</center>
 
-</div>
+Just copy and paste the installation command and press the return key. When asked 
+
+```{r eval = FALSE, echo = TRUE}
+Do you want to install from sources the package which needs 
+compilation? (Yes/no/cancel)
+```
+
+type `Yes` in the console and press the return key. 
+
+## Column 2
+
+### **What if the steps to the left do not work for me?**
+If all fails and you have insufficient rights to your machine, the following web-based service will offer a solution. 
+
+1. Open a free account on [rstudio.cloud](https://rstudio.cloud). You can run your own cloud-based `RStudio` environment there. 
+
+Naturally, you will need internet access for these services to be accessed. 
+
+### If RStudio is extremely slow
+
+[This guide](https://gist.github.com/vankesteren/f2e198aa5ab4f6262b21a3d13bbea0b5) worked to solve most problems on Utrecht University's HP laptops. Perhaps it helps you too. 
+
+# Day 1
+
+## Column 1
+
+### The first day's materials
+I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
+
+- Part A: Introduction to scripting with `R`
+    - [Lecture A](Part A - Introduction/Lecture_A.html)
+    - [Practical A](Exercise/Exercise_1_walkthrough.html)
+
+- Part B: Objects and Elements
+    - [Lecture B](Part B - How is R organized/Lecture_B.html)
+    - [Practical A](Exercise/Exercise_2_walkthrough.html)
+
+All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. 
+
+## Column 2
+
+### Useful References
+
+- [The tidyverse style guide](https://style.tidyverse.org)
+
+The above links are useful references that connect to today's materials. The above `ggplot2` link details pretty much all you can do with package `ggplot2`.
+
+# Day 2
+
+## Column 1
+
+### The second day's materials
+I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
+
+- Part C: Statistical learning 
+    - [Lecture C](Part C - Model estimation/Lecture_J.html)
+    - [Practical C](Part C - Model estimation/Practical_J_walkthrough.html)
+    - The [elasticdata.RData](elasticdata.RData) workspace used in the practical
+
+All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. 
+
+## Column 2
+
+### Useful links
+- [`magrittr`](https://magrittr.tidyverse.org)
+- [`R` for Data Science](http://r4ds.had.co.nz) - [Chapter 18 on pipes](http://r4ds.had.co.nz/pipes.html)
+- [The `ggplot2` reference page](https://ggplot2.tidyverse.org/reference/)
+
+
+The above links are useful references that connects to today's materials.
+
+# Course archive
+
+## Column 1
+
+### Download a course archive 
+I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online. At the end of the course, you can download all course materials [here](Material/Archive/Archive.html). 
+
+# To continue
+
+## Column 1
+
+### What to do after the course
+
+- [R for Data Science](https://r4ds.had.co.nz): a wonderful book that details a usefull toolset for current and aspiring data scientists. 
+- [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/): an introductory book on statistical learning, with applications in R.
+- [Data Analysis and Graphics Using R](http://www.pindex.com/uploads/post_docs/Maindonald%20Data%20Analysis%20and%20Graphics(PINDEX-DOC-6953).pdf): a detailed book that covers a lot about categorical data analysis and fitting `glm`s in `R`.
+
+The above references are (currently) available for free in these links. I deem them very useful and I would highly recommend them. 
+
+<!-- # Exercises -->
+
+<!-- ## Column 1 -->
+
+<!-- ### `R` exercises -->
+<!-- The introductory `R` exercise is threefold. We need to cover a lot of ground in these exercises to get you started with `R`. -->
+
+<!-- - Make [Exercise 1](Exercise/Exercise_1_walkthrough.html). This exercise will get you started with `R` and `RStudio`. -->
+<!-- - Make [Exercise 2](Exercise/Exercise_2_walkthrough.html). You can find [boys.RData here](Exercise/boys.RData). -->
+<!-- - Make [Exercise 3](Exercise/Exercise_3_walkthrough.html). -->
+
+<!-- ### Exercise discussion -->
+<!-- The below videodiscussions for the practical exercises explain the train of thought in the above exercise documents.  -->
+
+<!-- - [Exercise 1 discussion](https://www.dropbox.com/s/qgxlrrl808klmjq/Exercise1_discussion.mp4?dl=0) -->
+<!-- - [Exercise 2 discussion](https://www.dropbox.com/s/7bxqj6gn7occ0yr/Exercise%202_discussion.mp4?dl=0) -->
+<!-- - [Exercise 3 discussion](https://www.dropbox.com/s/dl5jklj4oixfpxd/Exercise3_discussion.mp4?dl=0) -->
+
+
+<!-- ### If you have any questions -->
+<!-- Please do not hesitate to [contact me](mailto:G.Vink@uu.nl), if you have questions.  -->
+
+<!-- All the best,  -->
+
+<!-- [Gerko](https://www.gerkovink.com) -->
+
+
