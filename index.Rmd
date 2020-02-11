@@ -132,7 +132,8 @@ I usually adapt the course as we go. To ensure that you work with the latest ite
 
 - Part B: Objects and Elements
     - [Lecture B](Part B - How is R organized/Lecture_B.html)
-    - [Practical A](Exercise/Exercise_2_walkthrough.html)
+    - [Practical B](Exercise/Exercise_2_walkthrough.html)
+    - [boys.RData](Exercise/boys.RData)
 
 All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. 
 
