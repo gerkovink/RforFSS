@@ -47,7 +47,7 @@ In this exercise we will get acquainted with `R`. A convenient way to work with 
  
 If you have no experience with `R`, you will learn the most from following this document. If you have some experience with `R` already,  I suggest you try solving the questions without looking at the answers/walkthrough. You can then refer to the solutions at any time, if needed. 
 
-If you have any questions or if you feel that some code should be elaborated, feel free to ask me via e-mail or ask the workgroup instructor.
+If you have any questions or if you feel that some code should be elaborated, feel free to ask me (Gerko).
 
 ---
 
@@ -138,7 +138,7 @@ You can find [`notebook.R` here](notebook.R).
 
 ---
 
-8. **Have a look at the code in the script and make sure that you understand what is going on. If you do not understand what you are looking at, please ask me (Gerko) during the lecture or [via e-mail](mailto:G.Vink@uu.nl), or ask the workgroup instructor.** 
+8. **Have a look at the code in the script and make sure that you understand what is going on. If you do not understand what you are looking at, please ask me (Gerko).** 
 
 ---
  
@@ -173,7 +173,7 @@ See also [this `rmarkdown` cheat sheet](Contents/Material/Part A - Introduction/
 
 You can find a zip containing the [`markdown.Rmd` here](markdown.Rmd.zip).
 
-Have a look at the code in the `markdown.Rmd` file and make sure that you understand what is going on. If you do not understand what you are looking at, please ask me (Gerko) during the lecture or [via e-mail](mailto:G.Vink@uu.nl), or ask the workgroup instructor. 
+Have a look at the code in the `markdown.Rmd` file and make sure that you understand what is going on. If you do not understand what you are looking at, please ask me (Gerko). 
 
 ---
 

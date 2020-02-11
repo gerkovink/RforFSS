@@ -10,21 +10,27 @@ output:
 ---
 
 ## Very useful
-You can view my screen on your machine: 
+You can access the course materials quickly from
 
-[join.me/statistics_uu](http://join.me/statistics_uu)
-
-and access the course materials quickly from
-
-[www.gerkovink.com/R](https://www.gerkovink.com/R)
+[www.gerkovink.com/RforFSS](https://www.gerkovink.com/RforFSS)
 
 # Overview of this course
-## Program
-<center>
-<img src="figures/schedule.png" alt="HTML5 Icon" width = 70%>
-</center>
+
+## Schedule
+
+**Today**
+
+- Scripting, `R` and RStudio
+- Objects and elements, simple data manipulation
+
+<br>
+
+**Tomorrow**
+
+- Pipes, plotting and linear modeling
 
 # Goal of this course
+
 ## Learn to keep your *cool*
 <center>
   <img src="figures/state_programming.png" alt="HTML5 Icon" width = 100%>
