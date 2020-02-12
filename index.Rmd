@@ -155,7 +155,7 @@ The above links are useful references that connect to today's materials. The abo
 I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
 
 - Part C: Statistical learning 
-    - [Lecture C](Part C - Model estimation/Lecture_J.html)
+    - [Lecture C](Part C - Model estimation/Lecture_C.html)
     - [Practical C](Part C - Model estimation/Practical_J_walkthrough.html)
     - The [elasticdata.RData](elasticdata.RData) workspace used in the practical
 
